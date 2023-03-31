@@ -22,7 +22,6 @@ PHP
 MySQL
 HTML
 CSS
-Bootstrap
 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
@@ -30,4 +29,4 @@ Contributing
 Contributions are welcome! If you'd like to contribute to this project, please create a pull request with your changes.
 
 Contact
-If you have any questions or issues, please feel free to contact me at your-email@example.com.
+If you have any questions or issues, please feel free to contact me at mmaazz4339@gmail.com.
