@@ -15,6 +15,7 @@
             <select name="s_class">
                 <option value="" selected disabled>Select Class</option>
                 <?php 
+                include 'config.php';
                 $conn = mysqli_connect("localhost", "root","","crud") or die("Connection Unsuccessful!");
                 $sql = "SELECT * FROM class";
                $result = mysqli_query($conn, $sql) or die("Query Unsuccesessful");
@@ -25,7 +26,7 @@
                
                
                ?>
-                <option value="3"><?php echo $row['c_name']  ?></option>
+                <option value="<?php echo $row['c_id']; ?>"><?php echo $row['c_name']; ?></option>
 
                 <?php } ?>
             </select>

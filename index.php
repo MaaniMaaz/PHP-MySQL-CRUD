@@ -39,7 +39,7 @@ include 'header.php';
                 
                 <td>
                     <a href='edit.php?id=<?php echo $row['s_id']?>'>Edit</a>
-                    <a href='delete-inline.php'>Delete</a>
+                    <a href='delete-inline.php?id=<?php echo $row['s_id']; ?>'>Delete</a>
                 </td>
             </tr>
             <?php }?>
